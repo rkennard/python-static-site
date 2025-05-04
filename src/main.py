@@ -81,10 +81,10 @@ def generate_pages_recursive(dir_path_content, template_path, dest_dir_path, bas
 
 def main():
     source = "/Users/rob/Dev/Boot.dev/static-site/static"
-    destination = "/Users/rob/Dev/Boot.dev/static-site/public"
+    destination = "/Users/rob/Dev/Boot.dev/static-site/docs"
     dir_path_content = "/Users/rob/Dev/Boot.dev/static-site/content"
     template_path = "/Users/rob/Dev/Boot.dev/static-site/template.html"
-    dest_dir_path = "/Users/rob/Dev/Boot.dev/static-site/public"
+    dest_dir_path = "/Users/rob/Dev/Boot.dev/static-site/docs"
     basepath = sys.argv[1] if len(sys.argv) >= 2 else "/"
     
     copy_files(source, destination)
